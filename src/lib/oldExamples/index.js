@@ -5489,10 +5489,21 @@ export default class Default extends React.PureComponent {
   render() {
     return(
       <div>
-        <Icon name='accessories_16' />
-        <Icon name='accessories_20' />
-        <Icon name='accessories_36' />
-        <Icon name='accessories_56' />
+        <div>
+          <Icon name='accessories_16' />
+          <Icon name='accessories_20' />
+          <Icon name='accessories_36' />
+          <Icon name='accessories_56' />
+        </div>
+        <h6> (Dark Background) </h6>
+        <div className="cui--dark" style={{ backgroundColor: 'black', padding: '5px', width: 'fit-content'}}>
+          <div>
+            <Icon name='accessories_16' />
+            <Icon name='accessories_20' />
+            <Icon name='accessories_36' />
+            <Icon name='accessories_56' />
+          </div>
+        </div>
       </div>
     );
   }
